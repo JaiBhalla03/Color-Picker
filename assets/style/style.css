@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+
+#screen{
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    height: 200px;
+    padding-top: 100px;
+    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#inner{
+    width: fit-content;
+    height: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input input{
+    transform: rotate(270deg);
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    
+}
+
+.input #red{
+    accent-color: red;
+}
+.input #green{
+    accent-color: green;
+}
+.input #blue{
+    accent-color: blue;
+}
